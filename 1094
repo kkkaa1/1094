@@ -1,0 +1,8 @@
+x=input()
+x=int(x)
+x2=bin(x)
+str(x2)
+x2=list(x2)
+x2.pop(1)
+x2.pop(0)
+print(x2.count('1'))
